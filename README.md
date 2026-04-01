@@ -91,7 +91,6 @@ It includes:
 
 * Template PCB images
 * Test PCB images
-* Pre-processed / rotated images
 
 Due to sharing restrictions, the dataset is not included in this repository.
 
