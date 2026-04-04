@@ -48,9 +48,9 @@ def load_model():
 
 model = load_model()
 
-# ------------------------------
+# -----------------------------
 # DEFECT DETECTION
-# ------------------------------
+# -----------------------------
 def detect_defects(template, test):
 
     test = cv2.resize(test,(template.shape[1],template.shape[0]))
