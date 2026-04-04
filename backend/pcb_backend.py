@@ -131,7 +131,7 @@ def process_pcb(template_path,test_path):
         if conf < 0.80:
             continue
 
-        # 🔥 HYBRID LOGIC
+        #  HYBRID LOGIC
         gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
         edges = cv2.Canny(gray, 50, 150)
 
@@ -154,7 +154,7 @@ def process_pcb(template_path,test_path):
 
         results.append((label,conf))
 
-        # 🔥 RED COLOR (BGR = (0,0,255))
+        #  RED COLOR (BGR = (0,0,255))
         cv2.rectangle(output,(x,y),(x+w,y+h),(0,0,255),2)
 
         cv2.putText(
