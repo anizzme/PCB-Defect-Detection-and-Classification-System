@@ -125,7 +125,7 @@ if template and test:
     test_file = tempfile.NamedTemporaryFile(delete=False)
     test_file.write(test.read())
 
-    with st.spinner("🚀 AI analyzing PCB..."):
+    with st.spinner(" AI analyzing PCB..."):
         output, results = process_pcb(template_file.name, test_file.name)
 
     output_rgb = cv2.cvtColor(output, cv2.COLOR_BGR2RGB)
