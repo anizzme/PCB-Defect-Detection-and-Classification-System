@@ -35,14 +35,14 @@ hr {
     display: none;
 }
 
-/* 🔥 CARD WITH CONTROLLED NEON GLOW */
+/*  CARD WITH CONTROLLED NEON GLOW */
 .card {
     padding: 15px;
     border-radius: 12px;
     background: rgba(255,255,255,0.04);
     border: 1px solid rgba(0,255,200,0.4);
 
-    /* 👇 IMPORTANT: tight glow (no bars) */
+    /*  IMPORTANT: tight glow (no bars) */
     box-shadow:
         0 0 6px rgba(0,255,200,0.3),
         0 0 12px rgba(0,255,200,0.15);
@@ -50,7 +50,7 @@ hr {
     transition: 0.3s ease;
 }
 
-/* ✨ Hover glow effect */
+/*  Hover glow effect */
 .card:hover {
     box-shadow:
         0 0 10px rgba(0,255,200,0.6),
